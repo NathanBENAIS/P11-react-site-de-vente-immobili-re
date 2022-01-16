@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Featured.css';
 
 import House1 from '../../assets/house1.jpg';
@@ -17,8 +16,7 @@ import LivingRoom from '../../assets/living-room.jpg';
 const Featured = () => {
     return (
         <div className='featured'>
-            <h1 className='featured-text'>Top Featured Listings</h1>
-            <p className='featured-text'>Selected listings by City, State, & Zip based on views.</p>
+            <h1 className='featured-text'>Les annonces les plus pertinentes</h1>            
             <div className='container'>
                 <img className='span-3 image-grid-row-2' src={House1} alt='' />
                 <img src={Bed1} alt='' />
@@ -27,32 +25,32 @@ const Featured = () => {
                 <img src={Bathroom} alt='' />
                 <div className='span-3 img-details'>
                     <div className='top'>
-                        <h2>123 Acme St. Dallas, TX</h2>
-                        <p>House for Sale</p>
-                        <p className='price'>$2,677,000</p>
+                        <h2>123 Paul Léautaud</h2>
+                        <p>Maison à vendre</p>
+                        <p className='price'>18,677,000€TTC</p>
                     </div>
                     <div className='info-grid'>
                         <div>
                             <div className='info'>
-                                <p className='bold'>Bedrooms:</p><p>5</p>
+                                <p className='bold'>Chambres:</p><p>13</p>
                             </div>
                             <div className='info'>
-                                <p className='bold'>Bathrooms:</p><p>7</p>
+                                <p className='bold'>Salles de bains:</p><p>7</p>
                             </div>
                         </div>
                         <div>
                             <div className='info'>
-                                <p className='bold'>Square Feet:</p><p>8,138</p>
+                                <p className='bold'>m²:</p><p>8,138</p>
                             </div>
                             <div className='info'>
-                                <p className='bold'>Est Payment:</p><p>$14,797/m²</p>
+                                <p className='bold'>Prix de vente:</p><p>2 211 €/m²</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='span-2 right-img-details'>
-                    <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna. </p>
-                    <button className='btn'>View Listing</button>
+                    <p>Une belle maison  moderne dans la ville avec une piscine pleine grandeur. Maison spacieuse et luxueuse située au Sarcelles. Comprend une salle multimédia, une salle d'entraînement et un sauna intégré. </p>
+                    <button className='btn'>Voir Plus</button>
                 </div>
             </div>
 
@@ -68,32 +66,32 @@ const Featured = () => {
                 <img className='order-5' src={LivingRoom} alt='' />
 
                 <div className='span-2 right-img-details order-7'>
-                    <p>A beautiful modern day home in the city with a full-size pool. Spacious and luxurious home located in Texas. Including media room, workout facility, and built-in sauna. </p>
-                    <button className='btn'>View Listing</button>
+                    <p>Une belle maison moderne dans la ville avec une piscine pleine grandeur. Maison spacieuse et luxueuse située à Sarcelles. Comprend une salle multimédia, une salle d'entraînement et un sauna intégré. </p>
+                    <button className='btn'>Voir Plus</button>
                 </div>
 
 
                 <div className='span-3 img-details order-6'>
                     <div className='top'>
-                        <h2>123 Acme St. Dallas, TX</h2>
-                        <p>House for Sale</p>
-                        <p className='price'>$2,677,000</p>
+                    <h2>124 Paul Léautaud</h2>
+                        <p>Maison à vendre</p>
+                        <p className='price'>$22,910,000€TTC</p>
                     </div>
                     <div className='info-grid'>
                         <div>
                             <div className='info'>
-                                <p className='bold'>Bedrooms:</p><p>5</p>
+                                <p className='bold'>Chambres:</p><p>15</p>
                             </div>
                             <div className='info'>
-                                <p className='bold'>Bathrooms:</p><p>7</p>
+                                <p className='bold'>Salles de bains:</p><p>7</p>
                             </div>
                         </div>
                         <div>
                             <div className='info'>
-                                <p className='bold'>Square Feet:</p><p>8,138</p>
+                                <p className='bold'>m²:</p><p>8,738</p>
                             </div>
                             <div className='info'>
-                                <p className='bold'>Est Payment:</p><p>$14,797/m²</p>
+                            <p className='bold'>Prix de vente:</p><p>2 517 €/m²</p>
                             </div>
                         </div>
                     </div>

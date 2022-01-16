@@ -13,11 +13,12 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div className='container'>
-                <h1><span><BsFillHouseFill />Delta </span>RealEstate</h1>
+                
+                <Link to='/' className='lin' ><h1><span><BsFillHouseFill />Delta </span>Immobilier</h1></Link> 
             
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <Link to='/' className='link' >Home</Link>                
-                <Link to='/about' className='link'>About</Link>                  
+                <Link to='/' className='link' >Accueil</Link>                
+                <Link to='/about' className='link'>Autre</Link>                  
                 <Link to='/contact' className='link' >Contact</Link>                
                 </ul>
                 

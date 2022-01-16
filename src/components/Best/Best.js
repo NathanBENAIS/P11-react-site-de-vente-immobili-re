@@ -1,20 +1,18 @@
-import React from 'react'
-
-import Apt1 from '../../assets/apt1.jpeg'
-import Apt2 from '../../assets/apt2.jpeg'
-import Apt3 from '../../assets/apt3.jpeg'
-
-import './Best.css'
+import React from 'react';
+import Apt1 from '../../assets/apt1.jpeg';
+import Apt2 from '../../assets/apt2.jpeg';
+import Apt3 from '../../assets/apt3.jpeg';
+import './Best.css';
 
 const Best = () => {
     return (
         <div className='best'>
-            <h1>Find Best Rated Properties</h1>
+            <h1>Trouver les propriétés les mieux notées</h1>
             <div>
-                <p><span className='bold'>All</span></p>
-                <p>Commercial</p>
-                <p>Residential</p>
-               
+                <p><span className='bold'>Tous</span></p>
+                <p>Commerciale</p>
+                <p>Bureau</p>
+                <p>Logement</p>
             </div>
             <div className='container'>
                 <img src={Apt1} alt='' />

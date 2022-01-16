@@ -10,32 +10,34 @@ const Footer = () => {
            
             <div className='container'>
                 <div className='col'>
-                    <h3>About</h3>
-                    <p>Company</p>
+                    <h3>Autre</h3>
+                    <p>Nos actualités</p>
+                    <p>Notre Newsletter</p>
                     <p>Details</p>
-                    <p>Planning</p>
-                    <p>About Us</p>
+                   
+
+                    
+
+
                 </div>
                 <div className='col'>
-                    <h3>Company</h3>
-                    <p>Company</p>
-                    <p>Details</p>
-                    <p>Planning</p>
-                    <p>About Us</p>
+                    <h3>Entrepise</h3>
+                    <p>Nous rejoindre</p>                
+                    <p>Carrière</p>
+                    <p>Détails</p>
+                   
                 </div>
                 <div className='col'>
-                    <h3>Legal</h3>
-                    <p>Company</p>
-                    <p>Details</p>
-                    <p>Planning</p>
-                    <p>About Us</p>
+                    <h3>Certificat</h3>                    
+                    <p>Détails</p>
+                    <p style={{color:'#f8f8f8'}}>.</p>  
+                    <p style={{color:'#f8f8f8'}}>.</p>  
                 </div>
                 <div className='col'>
-                    <h3>Information</h3>
-                    <p>Company</p>
-                    <p>Details</p>
-                    <p>Planning</p>
-                    <p>About Us</p>
+                    <h3>Information</h3>                    
+                    <p>Détails</p>                   
+                    <p>Nous Contacter</p>
+                    <p style={{color:'#f8f8f8'}}>.</p>  
                 </div>
             </div>
 
